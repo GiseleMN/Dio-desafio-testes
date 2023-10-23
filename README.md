@@ -1,10 +1,10 @@
-# DIO - Trilha .NET - Testes Unitários com C#
-www.dio.me
+# DIO - Testes Unitários com C#
 
-## Desafio de projeto
-Para este desafio, você precisará usar seus conhecimentos adquiridos no módulo de Testes Unitários com C#, da trilha .NET da DIO.
 
-## Contexto
+## Desafio de projeto 📚
+Para este desafio, foi feito uso dos conhecimentos adquiridos no módulo de Testes Unitários com C#.
+
+## Contexto 🗓️
 Você está trabalhando em um sistema, e seus gestores relataram que frequentemente há problemas no software: bugs, funcionalidades que estavam funcionando de repente não funcionam mais, problemas de validações, entre outros. Os clientes já começam a duvidar da qualidade do código.
 
 Feito isso, você sugeriu a implementação de testes unitários: escrever testes cobrindo as partes mais críticas do sistema, com cenários positivos e negativos, a fim de ter uma rastreabilidade e controle do código, melhorando assim a qualidade desse sistema.
@@ -12,7 +12,11 @@ Feito isso, você sugeriu a implementação de testes unitários: escrever teste
 Os gestores aceitaram a sua ideia, e com isso, você precisa implementar testes unitários no sistema.
 
 ## Premissas
-O sistema hoje possui dois projetos: um do tipo console, e um do tipo testes com **xUnit**. O projeto do tipo console possui duas classes em que são realizadas as lógicas principais: **ValidacoesLista** e **ValidacoesString**. Essas classes contém métodos em comum que são usados para realizar diversas validações em determinados cenários.
+O sistema hoje possui dois projetos: um do tipo console, e um do tipo testes com **xUnit**. O projeto do tipo console possui duas classes em que são realizadas as lógicas principais: <br> 
+
+🔢**ValidacoesLista** e 🔡**ValidacoesString**. 
+
+Essas classes contém métodos em comum que são usados para realizar diversas validações em determinados cenários.
 
 O projeto de testes possui as classes de teste **ValidacoesListaTests** e **ValidacoesStringTests**, assim como seus métodos para validar o projeto do tipo console, porém estão incompletos. 
 
@@ -22,7 +26,7 @@ O seu objetivo é implementar os métodos de testes contidos no projeto.
 
 Essas são as classes do projeto console, onde fica a principal lógica do sistema.
 
-**Classe ValidaçõesLista**
+<h3 style="color:#f1f677">Classe ValidaçõesLista 🎯</h3> 
 
 Classe responsável por realizar diversas validações envolvendo listas.
 
@@ -34,7 +38,7 @@ Classe responsável por realizar diversas validações envolvendo listas.
 | ValidacoesLista | RetornarMaiorNumeroLista     | Recebe uma lista de números inteiros e retorna o maior número entre eles                                                |
 | ValidacoesLista | RetornarMenorNumeroLista     | Recebe uma lista de números inteiros e retorna o menor número entre eles                                                |
 
-**Classe ValidacoesString**
+<h3 style="color:#f1f677">Classe ValidacoesString 🎯 </h3>
 
 Classe responsável por realizar diversas validações envolvendo strings.
 
@@ -46,7 +50,7 @@ Classe responsável por realizar diversas validações envolvendo strings.
 
 ## Projeto do tipo teste, suas classes e métodos
 
-**Classe ValidacoesListaTests**
+<h3 style="color:#f1d677">Classe ValidacoesListaTests 🎯</h3>
 
 Classe responsável por realizar os testes da classe ValidacoesLista.
 
@@ -59,7 +63,7 @@ Classe responsável por realizar os testes da classe ValidacoesLista.
 | ValidacoesListaTests | DeveRetornar9ComoMaiorNumeroDaLista           | Ao passar uma lista de números inteiros, sendo o maior deles 9, deve retornar o 9 como maior elemento dentro dessa lista                   |
 | ValidacoesListaTests | DeveRetornarOitoNegativoComoMenorNumeroDaList | Ao passar uma lista de números inteiros, sendo o menor deles -8, deve retornar o -8 como menor elemento dentro dessa lista                 |
 
-**Classe ValidacoesStringTests**
+<h3 style="color:#f1f677">Classe ValidacoesStringTests 🎯</h3>
 
 Classe responsável por realizar os testes da classe ValidacoesString.
 
@@ -76,6 +80,3 @@ O projeto está estruturado da seguinte maneira:
 
 ![Métodos Swagger](Imagens/projeto.png)
 
-
-## Solução
-O código de testes está pela metade, e você deverá dar continuidade implementando os testes descritos acima, para que no final, tenhamos um programa de testes funcional. Procure pela palavra comentada "TODO" no código, em seguida, implemente conforme as regras acima.
